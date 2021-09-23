@@ -1,0 +1,42 @@
+body{
+	margin:0;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.product{
+ background-color: #d6e6f1;
+ height: 100vh;
+}
+.product .main-img img{
+	max-width: 500px;
+	margin:auto;
+	display: block;
+}
+.product .thumb-img {
+	text-align: center;
+
+}
+.product .thumb-img .box{
+	display: inline-block;
+	height: 50px;
+	width:50px;
+	border:2px solid #8ea1af;
+	margin:2px;
+	cursor: pointer;
+}
+.product .thumb-img .box.active{
+	border-color:#545454;	
+}
+.product .thumb-img .box img{
+      max-width: 100%;
+      max-height: 100%;
+}
+
+
+
+
+
+
